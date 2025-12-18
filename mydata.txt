@@ -1,0 +1,4 @@
+name	city	job
+ciccio	venice	plumber
+pasticcio	rome	driver
+coso	florence	biker

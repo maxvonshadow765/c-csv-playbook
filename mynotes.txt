@@ -1,0 +1,27 @@
+mkdir myProject
+cd myProject/
+git init
+git config --global user.name 'maxvonshadow765'
+git config --global user.email "tornaaitaca@gmail.com"
+git remote add origin https://github.com/maxvonshadow765/c-csv-playbook.git
+git branch -M main
+git push -u origin main 
+git branch -a
+git commit -m "Initial commit"
+git push -u origin main 
+ssh-keygen -t ed25519 -C "tornaaitaca@gmail.com"
+cd /home/myProject/c-csv-playbook/
+yum install gcc
+vim hello.c
+what is  #include how can you replace it with a file.c that contains printf      
+gcc -o hello hello.c
+cc --version
+vim hello.c
+cc hello.c 
+./a.out 
+file a.out 
+hexdump -C a.out 
+how to see what happens in a C program with cc -S, hexdump
+cc -S hello.c 
+file a.out 
+man 3 printf 
