@@ -25,3 +25,5 @@ how to see what happens in a C program with cc -S, hexdump
 cc -S hello.c 
 file a.out 
 man 3 printf 
+how variables work
+sp(stack pointers) registry

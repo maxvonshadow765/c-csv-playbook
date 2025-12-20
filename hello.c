@@ -10,7 +10,7 @@ int main (void)
 	int d = 5;
 	int e = 10;
 	int f = d+e;
-	printf ("ciao  %d %d\n", sum (3,2), f);
+	printf ("ciao  %d %lu\n", sum (3,2), sizeof(f));
 	return 0;
 
 }
