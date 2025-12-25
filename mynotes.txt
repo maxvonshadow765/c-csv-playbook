@@ -27,3 +27,15 @@ file a.out
 man 3 printf 
 how variables work
 sp(stack pointers) registry
+
+
+
+# Game of life
+
+ func cell_to_index
+ func get_cell
+ func print grid
+ func set_grid
+ func living_neighbors
+ func compute new state
+ main
